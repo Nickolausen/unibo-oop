@@ -8,6 +8,6 @@ class CallByValue {
         int x = 1;
         CallByValue cbv = new CallByValue();
         cbv.increment(x);
-        System.out.println("x=" + x);
+        System.out.println("x=" + x); /* Expected: x=1 */
     }
 }

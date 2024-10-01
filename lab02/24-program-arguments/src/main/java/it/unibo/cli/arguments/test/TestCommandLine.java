@@ -3,6 +3,11 @@ package it.unibo.cli.arguments.test;
 class TestCommandLine {
 
     public static void main(final String[] args) {
+
+        for (String arg: args) {
+            System.out.println("* " + arg + ", " + arg.length() + " characters long");
+        }
+
         /*
          * Write the main method in such a way that it iterates through the
          * array of arguments, printing each one along with the length of the

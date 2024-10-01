@@ -18,6 +18,26 @@ class Smartphone {
     boolean has3G;
     boolean hasNFC;
 
+    public Smartphone(
+        final int nCPU, 
+        final int ram, 
+        final int sdSize, 
+        final String brand, 
+        final String model, 
+        final boolean hasGPS, 
+        final boolean has3g,
+        final boolean hasNFC) 
+    {
+        this.nCPU = nCPU;
+        this.ram = ram;
+        this.sdSize = sdSize;
+        this.brand = brand;
+        this.model = model;
+        this.hasGPS = hasGPS;
+        this.has3G = has3g;
+        this.hasNFC = hasNFC;
+    }
+
     void printStringRep() {
         System.out.println("Smartphone info:");
         System.out.println("n CPU(s): " + this.nCPU);

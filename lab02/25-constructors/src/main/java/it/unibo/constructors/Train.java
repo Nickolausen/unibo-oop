@@ -12,6 +12,31 @@ class Train {
     int firstClassReserved;
     int secondClassReserved;
 
+    public Train(
+        final int firstClassSeats, 
+        final int secondClassSeats, 
+        final int firstClassReserved, 
+        final int secondClassReserved) {
+        this.seats = firstClassSeats + secondClassSeats;
+        this.firstClassSeats = firstClassSeats;
+        this.secondClassSeats = secondClassSeats;
+        this.firstClassReserved = firstClassReserved;
+        this.secondClassReserved = secondClassReserved;
+    }
+
+    public Train(
+        final int seats, 
+        final int firstClassSeats, 
+        final int secondClassSeats, 
+        final int firstClassReserved,
+        final int secondClassReserved) {
+        this.seats = seats;
+        this.firstClassSeats = firstClassSeats;
+        this.secondClassSeats = secondClassSeats;
+        this.firstClassReserved = firstClassReserved;
+        this.secondClassReserved = secondClassReserved;
+    }
+
     void deleteAllReservations() {
         this.firstClassReserved = 0;
         this.secondClassReserved = 0;

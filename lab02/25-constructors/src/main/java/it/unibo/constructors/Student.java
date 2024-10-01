@@ -7,7 +7,8 @@ class Student {
     int id;
     int matriculationYear;
 
-    void build(final int id, final String name, final String surname, final int matriculationYear) {
+    public Student(final int id, final String name, final String surname, final int matriculationYear) 
+    {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -22,20 +23,16 @@ class Student {
     }
 
     public static void main(final String[] args) {
-        final Student marioRossi = new Student();
-        marioRossi.build(1014, "Mario", "Rossi", 2013);
+        final Student marioRossi = new Student(1014, "Mario", "Rossi", 2013);
         marioRossi.printStudentInfo();
 
-        final Student luigiGentile = new Student();
-        luigiGentile.build(1015, "Luigi", "Gentile", 2012);
+        final Student luigiGentile = new Student(1015, "Luigi", "Gentile", 2012);
         luigiGentile.printStudentInfo();
 
-        final Student simoneBianchi = new Student();
-        simoneBianchi.build(1016, "Simone", "Bianchi", 2010);
+        final Student simoneBianchi = new Student(1016, "Simone", "Bianchi", 2010);
         simoneBianchi.printStudentInfo();
 
-        final Student andreaBracci = new Student();
-        andreaBracci.build(1017, "Andrea", "Bracci", 2012);
+        final Student andreaBracci = new Student(1017, "Andrea", "Bracci", 2012);
         andreaBracci.printStudentInfo();
     }
 }
