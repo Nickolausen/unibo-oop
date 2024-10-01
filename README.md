@@ -5,6 +5,6 @@ Esercizi settimanali del corso di
 
 - **Docenti**: prof. Mirko Viroli, dott. Danilo Pianini;
 - **Tutor**: Ing. Martina Baiardi, Ing. Nicholas Farabegoli.
-- **Linguaggio** di programmazione: Java - JDK v21;
+- **Linguaggio** di programmazione: Java - _Open JDK21_;
 
 Ogni cartella contiene una serie di esercizi settimanali proposti dal dott. Danilo Pianino.
