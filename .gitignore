@@ -4,3 +4,4 @@ bin/
 
 # Other files
 *.zip
+.DS_Store
