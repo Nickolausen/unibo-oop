@@ -1,2 +1,6 @@
 # Java Compiler's files
 *.class
+bin/
+
+# Other files
+*.zip
